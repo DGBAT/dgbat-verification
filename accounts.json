@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DGBAT Official",
+        "type": "account",
+        "Email": "info@dgbat.org",
+        "Twitter": "DGBAT_Official",
+        "Reddit": "DGBAT_Official",
+        "Youtube": "DigiByteAwarenessTeam"
+    },
+    {
+        "name": "DGBAT Announcements",
+        "type": "channel",
+        "Telegram": "DGBAT_Announcements"
+    },
+    {
+        "name": "DGBAT Expenses",
+        "type": "channel",
+        "Telegram": "dgbat"
+    }
+]
