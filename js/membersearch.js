@@ -43,6 +43,7 @@ let searchMember = () => {
                 text: `"${string}" could not be verified, this account might belong to a impersonator or your spelling of the account is incorrect`
             };
 
+            let inputOptions = { "Platform": {} }; //initialize and construct select options object
             let select = {
                 icon: "question",
                 title: "Select account platform",
@@ -77,7 +78,6 @@ let searchMember = () => {
                 }
             }
 
-            let inputOptions = { "Platform": {} }; //initialize and construct select options object
             if (results.length < 1) {  //no matching result(s)
 
                 Swal.fire(unverified); //show unverified modal
